@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pilates Page</title>
+</head>
+<body>
+
+  <header aria-label="Site Header">
+    <h1>Pilates Basics</h1>
+    <nav aria-label="Main Navigation">
+      <a href="#schedule">Schedule</a> |
+      <a href="#signup">Sign Up</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Benefits of Pilates</h2>
+      <ul>
+        <li>Improves posture and flexibility</li>
+        <li>Strengthens core muscles</li>
+        <li>Reduces stress and enhances focus</li>
+      </ul>
+    </section>
+
+    <section id="schedule">
+      <h2>Class Schedule</h2>
+      <table border="1">
+        <tr><th>Day</th><th>Time</th></tr>
+        <tr><td>Mon</td><td>10 AM</td></tr>
+        <tr><td>Wed</td><td>6 PM</td></tr>
+      </table>
+    </section>
+
+    <section id="signup">
+      <h2>Sign Up</h2>
+      <form action="/submit" method="post" autocomplete="on">
+        <input type="text" name="name" placeholder="Your Name" required aria-required="true"><br>
+        <input type="email" name="email" placeholder="Your Email" required aria-required="true"><br>
+        <button type="submit">Join</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Pilates Page</p>
+  </footer>
+
+</body>
+</html>
